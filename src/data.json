@@ -1,0 +1,120 @@
+{
+  "cocktails": [
+    {
+      "name": "Manhattan",
+      "ingredients": [
+        "knob creek 100 proof",
+        "sweet vermouth",
+        "angostura bitters",
+        "freshly squeezed orange juice",
+        "orange garnish"
+      ],
+      "recipe": "1 ounce bourbon, 1 ounce sweet vermouth, 2 dashes angostura bitters, fresh squeezed orange juice, orange garnish"
+    },
+    {
+      "name": "Old Fashioned",
+      "ingredients": [
+        "four roses bourbon",
+        "brown sugar",
+        "angostura bitters",
+        "orange garnish"
+      ],
+      "recipe": "2 ounces bourbon, 1/2 teaspoon brown sugar, 2 dashes angostura bitters, orange garnish"
+    },
+    {
+      "name": "Boulevardier",
+      "ingredients": [
+        "knob creek 100 proof",
+        "campari",
+        "sweet vermouth",
+        "freshly squeezed orange juice",
+        "orange garnish"
+      ],
+      "recipe": "1 1/4 ounces bourbon, 1 ounce campari, 1 ounce sweet vermouth, fresh squeezed orange juice, orange garnish"
+    },
+    {
+      "name": "Negroni",
+      "ingredients": [
+        "ampersand gin",
+        "campari",
+        "sweet vermouth",
+        "freshly squeezed orange juice",
+        "orange garnish"
+      ],
+      "recipe": "1 1/4 ounces gin, 1 ounce campari, 1 ounce sweet vermouth, fresh squeezed orange juice, orange garnish"
+    },
+    {
+      "name": "Sidecar",
+      "ingredients": [
+        "hennessy very special cognac",
+        "cointreau",
+        "lemon juice",
+        "lemon twist"
+      ],
+      "recipe": "1 1/2 ounces cognac, 3/4 ounce cointreau, 3/4 ounce lemon juice, lemon twist"
+    },
+    {
+      "name": "Sazerac",
+      "ingredients": [
+        "knob creek 100 proof",
+        "lot 40 rye whiskey",
+        "hennessy very special cognac",
+        "tofino psychedelic jellyfish absinthe",
+        "peychaud's bitters",
+        "angostura bitters",
+        "sugar",
+        "lemon twist"
+      ],
+      "recipe": "1 ounce bourbon, 1 ounce rye, 1 ounce cognac, 1/8 ounce absinthe, 3 dashes peychaud's, 2 dashes angostura, 1 teaspoon sugar, lemon twist"
+    },
+    {
+      "name": "French 75",
+      "ingredients": [
+        "champagne",
+        "longtable distillery gin",
+        "simple syrup",
+        "lemon juice",
+        "lemon twist"
+      ],
+      "recipe": "3 ounces champagne, 1 ounce gin, 1/2 ounce simple syrup, 1/2 ounce lemon juice"
+    },
+    {
+      "name": "French 77",
+      "ingredients": [
+        "champagne",
+        "st. germaine elderflower liqueur",
+        "lemon juice",
+        "lemon twist"
+      ],
+      "recipe": "3 ounces champagne, 1 ounce elderflower liqueur, 1/2 ounce lemon juice"
+    },
+    {
+      "name": "Gin & Tonic",
+      "ingredients": [
+        "ampersand or long table gin",
+        "tonic"
+      ],
+      "recipe": "1.5 ounces gin, 6 ounces tonic"
+    },
+    {
+      "name": "Vodka Soda",
+      "ingredients": [
+        "ampersand vodka",
+        "sparkling water"
+      ],
+      "recipe": "1.5 ounces vodka, 6 ounces sparkling water"
+    }
+  ],
+  "beers":[
+    {
+      "name": "Lucky Lager",
+      "description": "Lucky has been quality brewed in the tradition of a classic Canadian lager since 1934. With no preservatives, only 5.0% alcohol, Lucky is a lighter tasting, easy drinking beer that has stood the test of time. "
+    }
+  ],
+  "wines": [
+    {
+      "name": "Horseshoe Cellars Riesling, 2020",
+      "description": "Horseshoe Cellars are dedicated to celebrating terroir in the Niagara Peninsula as expressed through Riesling - one of the region's finest varietals. Focuses on intensity, complexity, and balance, this wine is crafted to be a true representation of time and place."
+    }
+  ]
+}
