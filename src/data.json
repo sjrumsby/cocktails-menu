@@ -3,14 +3,32 @@
     {
       "name": "Lucky Lager",
       "description": "Lucky has been quality brewed in the tradition of a classic Canadian lager since 1934. With no preservatives, only 5.0% alcohol, Lucky is a lighter tasting, easy drinking beer that has stood the test of time. ",
+      "tags": [
+        {
+          "type": "abv",
+          "value": "5.0"
+        }
+      ]
     },
     {
       "name": "Red Racer Street Legal Pilsner",
       "description": "Street Legal is traditionally brewed before having the alcohol removed in our state-of-the-art cross-flow filtration system.  This allows us to preserve the delicious flavour of our craft beer and produce a product with only 0.5% alcohol.",
+      "tags": [
+        {
+          "type": "abv",
+          "value": "< 0.5"
+        }
+      ]
     },
     {
       "name": "Red Racer Street Legal IPA",
       "description": "Street Legal is traditionally brewed before having the alcohol removed in our state-of-the-art cross-flow filtration system.  This allows us to preserve the delicious flavour of our craft beer and produce a product with only 0.5% alcohol.",
+      "tags": [
+        {
+          "type": "abv",
+          "value": "< 0.5"
+        }
+      ]
     }
   ],
   "cocktails": [
@@ -122,7 +140,13 @@
   "wines": [
     {
       "name": "Horseshoe Cellars Riesling, 2020",
-      "description": "Horseshoe Cellars are dedicated to celebrating terroir in the Niagara Peninsula as expressed through Riesling - one of the region's finest varietals. Focuses on intensity, complexity, and balance, this wine is crafted to be a true representation of time and place."
+      "description": "Horseshoe Cellars are dedicated to celebrating terroir in the Niagara Peninsula as expressed through Riesling - one of the region's finest varietals. Focuses on intensity, complexity, and balance, this wine is crafted to be a true representation of time and place.",
+      "tags": [
+        {
+          "type": "abv",
+          "value": "10.2"
+        }
+      ]
     }
   ]
 }
