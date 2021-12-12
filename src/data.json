@@ -1,4 +1,18 @@
 {
+  "beers":[
+    {
+      "name": "Lucky Lager",
+      "description": "Lucky has been quality brewed in the tradition of a classic Canadian lager since 1934. With no preservatives, only 5.0% alcohol, Lucky is a lighter tasting, easy drinking beer that has stood the test of time. ",
+    },
+    {
+      "name": "Red Racer Street Legal Pilsner",
+      "description": "Street Legal is traditionally brewed before having the alcohol removed in our state-of-the-art cross-flow filtration system.  This allows us to preserve the delicious flavour of our craft beer and produce a product with only 0.5% alcohol.",
+    },
+    {
+      "name": "Red Racer Street Legal IPA",
+      "description": "Street Legal is traditionally brewed before having the alcohol removed in our state-of-the-art cross-flow filtration system.  This allows us to preserve the delicious flavour of our craft beer and produce a product with only 0.5% alcohol.",
+    }
+  ],
   "cocktails": [
     {
       "name": "Manhattan",
@@ -103,12 +117,6 @@
         "sparkling water"
       ],
       "recipe": "1.5 ounces vodka, 6 ounces sparkling water"
-    }
-  ],
-  "beers":[
-    {
-      "name": "Lucky Lager",
-      "description": "Lucky has been quality brewed in the tradition of a classic Canadian lager since 1934. With no preservatives, only 5.0% alcohol, Lucky is a lighter tasting, easy drinking beer that has stood the test of time. "
     }
   ],
   "wines": [
