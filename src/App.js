@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <Image fluid src="/banner.png" style={{ height: 'auto', maxWidth: '100%' }} />
-      <Container className="p-3" style={{ maxWidth: "70%" }}>
+      <Container style={{ maxWidth: "700px" }}>
         <h1>Cocktails</h1>
         <Container className="m-1">
           { data.cocktails.map((cocktail) => {

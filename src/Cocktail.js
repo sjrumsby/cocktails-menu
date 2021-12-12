@@ -1,5 +1,6 @@
 import React from 'react'
 import ReactCardFlip from 'react-card-flip';
+import Button from 'react-bootstrap/Button'
 import Card from "react-bootstrap/Card";
 
 class Cocktail extends React.Component {
@@ -25,7 +26,7 @@ class Cocktail extends React.Component {
           <Card.Title style={{ float: "left" }}>
             {cocktail.name}
           </Card.Title>
-          <h6 onClick={this.handleClick} style={{ cursor: "pointer", float: "right" }}>View Recipe</h6>
+          <Button style={{ float: "right" }} variant="secondary" onClick={this.handleClick}>View Recipe</Button>
         </Card.Body>
         <Card.Body style={{ paddingBottom: 0 }}>
           <ReactCardFlip isFlipped={this.state.isFlipped} flipDirection="horizontal">
