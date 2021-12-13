@@ -137,6 +137,158 @@
       "recipe": "1.5 ounces vodka, 6 ounces sparkling water"
     }
   ],
+  "spirits": [
+    {
+      "name": "Woodford Reserve Kentucky Bourbon",
+      "type": "whiskey",
+      "tags": [
+        {
+          "type": "abv",
+          "value": "45.2"
+        }
+      ]
+    },
+    {
+      "name": "Bulleit Bourbon",
+      "type": "whiskey",
+      "tags": [
+        {
+          "type": "abv",
+          "value": "45"
+        }
+      ]
+    },
+    {
+      "name": "Knob Creek 100 proof",
+      "type": "whiskey",
+      "tags": [
+        {
+          "type": "abv",
+          "value": "50"
+        }
+      ]
+    },
+    {
+      "name": "Four Roses Bourbon",
+      "type": "whiskey",
+      "tags": [
+        {
+          "type": "abv",
+          "value": "40"
+        }
+      ]
+    },
+    {
+      "name": "Lot 40 Rye",
+      "type": "whiskey",
+      "tags": [
+        {
+          "type": "abv",
+          "value": "43"
+        }
+      ]
+    },
+    {
+      "name": "Ampersand Gin",
+      "type": "gin",
+      "tags": [
+        {
+          "type": "abv",
+          "value": "43.8"
+        }
+      ]
+    },
+    {
+      "name": "Long Table Distillery London Dry Gin",
+      "type": "gin",
+      "tags": [
+        {
+          "type": "abv",
+          "value": "44"
+        }
+      ]
+    },
+    {
+      "name": "Ampersand Per Se Vodka",
+      "type": "vodka",
+      "tags": [
+        {
+          "type": "abv",
+          "value": "40"
+        }
+      ]
+    },
+    {
+      "name": "Hennessy Very Special Cognac",
+      "type": "cognac",
+      "tags": [
+        {
+          "type": "abv",
+          "value": "40"
+        }
+      ]
+    },
+    {
+      "name": "Tofino Psychedelic Jellyfish Absinthe",
+      "type": "absinthe",
+      "tags": [
+        {
+          "type": "abv",
+          "value": "73"
+        }
+      ]
+    },
+    {
+      "name": "St. Germaine Elderflower",
+      "type": "liqueur",
+      "tags": [
+        {
+          "type": "abv",
+          "value": "20"
+        }
+      ]
+    },
+    {
+      "name": "Cointreau",
+      "type": "liqueur",
+      "tags": [
+        {
+          "type": "abv",
+          "value": "40"
+        }
+      ]
+    },
+    {
+      "name": "Campari",
+      "type": "liqueur",
+      "tags": [
+        {
+          "type": "abv",
+          "value": "25"
+        }
+      ]
+    },
+    {
+      "name": "Esquimalt Wine Co. Dry Vermouth",
+      "type": "vermouth",
+      "tags": [
+        {
+          "type": "abv",
+          "value": "18"
+        }
+      ]
+    },
+    {
+      "name": "Martini Rossi Sweet Vermouth",
+      "type": "vermouth",
+      "tags": [
+        {
+          "type": "abv",
+          "value": "15"
+        }
+      ]
+    }
+  ],
   "wines": [
     {
       "name": "Horseshoe Cellars Riesling, 2020",

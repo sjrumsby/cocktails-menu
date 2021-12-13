@@ -52,6 +52,18 @@ function App() {
             )
           })}
         </Container>
+        <h1>Spirits</h1>
+        <Container className="m-1">
+          { data.spirits.map((spirit) => {
+            return (
+              <Card key={spirit.name} style={{ border: "0", paddingBottom: "0" }}>
+                <Card.Body style={{ paddingBottom: ".25em"}}>
+                  <Card.Title>{spirit.name}</Card.Title>
+                </Card.Body>
+              </Card>
+            )
+          })}
+        </Container>
       </Container>
     </div>
   );
