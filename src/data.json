@@ -41,7 +41,8 @@
         "freshly squeezed orange juice",
         "orange garnish"
       ],
-      "recipe": "1 ounce bourbon, 1 ounce sweet vermouth, 2 dashes angostura bitters, fresh squeezed orange juice, orange garnish"
+      "recipe": "1 ounce bourbon, 1 ounce sweet vermouth, 2 dashes angostura bitters, fresh squeezed orange juice, orange garnish",
+      "availability": true
     },
     {
       "name": "Old Fashioned",
@@ -51,7 +52,8 @@
         "angostura bitters",
         "orange garnish"
       ],
-      "recipe": "2 ounces bourbon, 1/2 ounce water, 1/2 teaspoon brown sugar, 2 dashes angostura bitters, orange garnish"
+      "recipe": "2 ounces bourbon, 1/2 ounce water, 1/2 teaspoon brown sugar, 2 dashes angostura bitters, orange garnish",
+      "availability": true
     },
     {
       "name": "Boulevardier",
@@ -62,7 +64,8 @@
         "freshly squeezed orange juice",
         "orange garnish"
       ],
-      "recipe": "1 1/4 ounces bourbon, 1 ounce campari, 1 ounce sweet vermouth, fresh squeezed orange juice, orange garnish"
+      "recipe": "1 1/4 ounces bourbon, 1 ounce campari, 1 ounce sweet vermouth, fresh squeezed orange juice, orange garnish",
+      "availability": true
     },
     {
       "name": "Negroni",
@@ -73,7 +76,8 @@
         "freshly squeezed orange juice",
         "orange garnish"
       ],
-      "recipe": "1 1/4 ounces gin, 1 ounce campari, 1 ounce sweet vermouth, fresh squeezed orange juice, orange garnish"
+      "recipe": "1 1/4 ounces gin, 1 ounce campari, 1 ounce sweet vermouth, fresh squeezed orange juice, orange garnish",
+      "availability": true
     },
     {
       "name": "Sidecar",
@@ -83,7 +87,8 @@
         "lemon juice",
         "lemon twist"
       ],
-      "recipe": "1 1/2 ounces cognac, 3/4 ounce cointreau, 3/4 ounce lemon juice, lemon twist"
+      "recipe": "1 1/2 ounces cognac, 3/4 ounce cointreau, 3/4 ounce lemon juice, lemon twist",
+      "availability": true
     },
     {
       "name": "Sazerac",
@@ -97,7 +102,8 @@
         "sugar",
         "lemon twist"
       ],
-      "recipe": "1 ounce bourbon, 1 ounce rye, 1 ounce cognac, 1/8 ounce absinthe, 3 dashes peychaud's, 2 dashes angostura, 1 teaspoon sugar, lemon twist"
+      "recipe": "1 ounce bourbon, 1 ounce rye, 1 ounce cognac, 1/8 ounce absinthe, 3 dashes peychaud's, 2 dashes angostura, 1 teaspoon sugar, lemon twist",
+      "availability": true
     },
     {
       "name": "French 75",
@@ -108,7 +114,8 @@
         "lemon juice",
         "lemon twist"
       ],
-      "recipe": "3 ounces champagne, 1 ounce gin, 1/2 ounce simple syrup, 1/2 ounce lemon juice"
+      "recipe": "3 ounces champagne, 1 ounce gin, 1/2 ounce simple syrup, 1/2 ounce lemon juice",
+      "availability": false
     },
     {
       "name": "French 77",
@@ -118,7 +125,8 @@
         "lemon juice",
         "lemon twist"
       ],
-      "recipe": "3 ounces champagne, 1 ounce elderflower liqueur, 1/2 ounce lemon juice"
+      "recipe": "3 ounces champagne, 1 ounce elderflower liqueur, 1/2 ounce lemon juice",
+      "availability": false
     },
     {
       "name": "Gin & Tonic",
@@ -126,7 +134,8 @@
         "ampersand or long table gin",
         "tonic"
       ],
-      "recipe": "1.5 ounces gin, 6 ounces tonic"
+      "recipe": "1.5 ounces gin, 6 ounces tonic",
+      "availability": true
     },
     {
       "name": "Vodka Soda",
@@ -134,7 +143,8 @@
         "ampersand vodka",
         "sparkling water"
       ],
-      "recipe": "1.5 ounces vodka, 6 ounces sparkling water"
+      "recipe": "1.5 ounces vodka, 6 ounces sparkling water",
+      "availability": true
     }
   ],
   "spirits": [
@@ -165,16 +175,6 @@
         {
           "type": "abv",
           "value": "50"
-        }
-      ]
-    },
-    {
-      "name": "Four Roses Bourbon",
-      "type": "whiskey",
-      "tags": [
-        {
-          "type": "abv",
-          "value": "40"
         }
       ]
     },

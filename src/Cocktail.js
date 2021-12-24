@@ -1,5 +1,6 @@
 import React from 'react'
 import ReactCardFlip from 'react-card-flip';
+import Badge from 'react-bootstrap/Badge';
 import Button from 'react-bootstrap/Button'
 import Card from "react-bootstrap/Card";
 
@@ -25,6 +26,10 @@ class Cocktail extends React.Component {
         <Card.Body style={{ paddingBottom: 0, paddingTop: 0 }}>
           <Card.Title style={{ float: "left" }}>
             {cocktail.name}
+            { !cocktail.availability ? 
+              <Badge bg="danger" pill style={{ marginLeft: "1em"}}>Unavailable</Badge> 
+              : null
+            }
           </Card.Title>
           <Button style={{ float: "right" }} variant="secondary" onClick={this.handleClick}>View Recipe</Button>
         </Card.Body>
