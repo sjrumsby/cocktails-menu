@@ -1,12 +1,52 @@
 {
   "beers":[
     {
+      "name": "Blue Buck Ale",
+      "description": "The Blue Buck is a legendary beast, featuring a robust, malt-forward body underpinned with crisp northwest hops. Well balanced and highly drinkable.",
+      "tags": [
+        {
+          "type": "abv",
+          "value": "5.0"
+        }
+      ]
+    },
+    {
       "name": "Lucky Lager",
       "description": "Lucky has been quality brewed in the tradition of a classic Canadian lager since 1934. With no preservatives, only 5.0% alcohol, Lucky is a lighter tasting, easy drinking beer that has stood the test of time. ",
       "tags": [
         {
           "type": "abv",
           "value": "5.0"
+        }
+      ]
+    },
+    {
+      "name": "Nütrl Vodka Soda",
+      "description": "No carbs. No sugar. No sweetener. No preservatives. No additives. Nütrl Vodka Soda is a wildly light, easy drinking, totally refreshing, sugar free, additive free, 5% alcohol, ready to drink, premium craft vodka soda. It’s the perfect change up from the usual sugary-sweet cooler or high calorie, super-filling beer. Available in grapefruit, lemon, lime, and cranberry.",
+      "tags": [
+        {
+          "type": "abv",
+          "value": "5.0"
+        }
+      ]
+    },
+    {
+      "name": "Phillips iOTA Pale Ale",
+      "description": "iOTA Pale Ale is light gold in colour, crafted for smooth and highly balanced malt and hop profiles. This delicious brew brings rounded honey and cereal notes, straightforward mouthfeel, and deliciously floral hops. This ale strikes a harmony between drinkability and flavour.",
+      "tags": [
+        {
+          "type": "abv",
+          "value": "0.5"
+        }
+      ]
+    },
+    {
+      "name": "Phillips iOTA Hazy IPA",
+      "description": "iOTA Hazy IPA is low on bitterness, full of citrus and juicy fruit notes. Our house malted barley lends a hand in creating a smooth sip and helps carry that tropical hazy hop profile.",
+      "tags": [
+        {
+          "type": "abv",
+          "value": "< 0.5"
         }
       ]
     },
@@ -38,21 +78,36 @@
         "knob creek 100 proof",
         "sweet vermouth",
         "angostura bitters",
-        "freshly squeezed orange juice",
-        "orange garnish"
+        "orange bitters",
+        "amareno cherries"
       ],
-      "recipe": "1 ounce bourbon, 1 ounce sweet vermouth, 2 dashes angostura bitters, fresh squeezed orange juice, orange garnish",
+      "recipe": "1.5 ounce bourbon, 1 ounce sweet vermouth, 2 dashes angostura bitters, 2 dashes orange bitters, 2 amareno cherries",
       "availability": true
     },
     {
       "name": "Old Fashioned",
       "ingredients": [
-        "woodford reserve bourbon",
-        "brown sugar",
+        "basil hayden reserve bourbon",
+        "lot 40 rye whiskey",
+        "organic cane sugar",
         "angostura bitters",
+        "amareno cherries",
         "orange garnish"
       ],
-      "recipe": "2 ounces bourbon, 1/2 ounce water, 1/2 teaspoon brown sugar, 2 dashes angostura bitters, orange garnish",
+      "recipe": "1.5 ounces bourbon, 0.5 ounce rye, 1/2 ounce water, 1/2 teaspoon organic cane sugar, 2 dashes angostura bitters, 2 amareno cherries, smoked orange garnish (subject to availability)",
+      "availability": true
+    },
+    {
+      "name": "Maple Old Fashioned",
+      "ingredients": [
+        "knob creek 100 proof",
+        "lot 40 rye whiskey",
+        "grade A very dark maple syrup",
+        "angostura bitters",
+        "orange bitters",
+        "orange garnish"
+      ],
+      "recipe": "1.5 ounces bourbon, 1.5 ounces rye, 2 dashes angostura bitters, 2 dashes dillon's orange bitters, smoked orange garnish (subject to availability)",
       "availability": true
     },
     {
@@ -70,24 +125,13 @@
     {
       "name": "Negroni",
       "ingredients": [
-        "ampersand gin",
+        "mary-le-bone gin",
         "campari",
         "sweet vermouth",
         "freshly squeezed orange juice",
         "orange garnish"
       ],
       "recipe": "1 1/4 ounces gin, 1 ounce campari, 1 ounce sweet vermouth, fresh squeezed orange juice, orange garnish",
-      "availability": true
-    },
-    {
-      "name": "Sidecar",
-      "ingredients": [
-        "hennessy very special cognac",
-        "cointreau",
-        "lemon juice",
-        "lemon twist"
-      ],
-      "recipe": "1 1/2 ounces cognac, 3/4 ounce cointreau, 3/4 ounce lemon juice, lemon twist",
       "availability": true
     },
     {
@@ -104,6 +148,35 @@
       ],
       "recipe": "1 ounce bourbon, 1 ounce rye, 1 ounce cognac, 1/8 ounce absinthe, 3 dashes peychaud's, 2 dashes angostura, 1 teaspoon sugar, lemon twist",
       "availability": true
+    },
+    {
+      "name": "Gin & Tonic",
+      "ingredients": [
+        "mary-le-bone or long table gin",
+        "tonic"
+      ],
+      "recipe": "1.5 ounces gin, 4 ounces tonic",
+      "availability": true
+    },
+    {
+      "name": "Vodka Soda",
+      "ingredients": [
+        "ampersand vodka",
+        "sparkling water"
+      ],
+      "recipe": "1.5 ounces vodka, sparkling water to taste",
+      "availability": true
+    },
+    {
+      "name": "Sidecar",
+      "ingredients": [
+        "hennessy very special cognac",
+        "cointreau",
+        "lemon juice",
+        "lemon twist"
+      ],
+      "recipe": "1 1/2 ounces cognac, 3/4 ounce cointreau, 3/4 ounce lemon juice, lemon twist",
+      "availability": false
     },
     {
       "name": "French 75",
@@ -127,44 +200,17 @@
       ],
       "recipe": "3 ounces champagne, 1 ounce elderflower liqueur, 1/2 ounce lemon juice",
       "availability": false
-    },
-    {
-      "name": "Gin & Tonic",
-      "ingredients": [
-        "ampersand or long table gin",
-        "tonic"
-      ],
-      "recipe": "1.5 ounces gin, 6 ounces tonic",
-      "availability": true
-    },
-    {
-      "name": "Vodka Soda",
-      "ingredients": [
-        "ampersand vodka",
-        "sparkling water"
-      ],
-      "recipe": "1.5 ounces vodka, 6 ounces sparkling water",
-      "availability": true
     }
+
   ],
   "spirits": [
     {
-      "name": "Woodford Reserve Kentucky Bourbon",
+      "name": "Basil Hayden Kentucky Bourbon",
       "type": "whiskey",
       "tags": [
         {
           "type": "abv",
-          "value": "45.2"
-        }
-      ]
-    },
-    {
-      "name": "Bulleit Bourbon",
-      "type": "whiskey",
-      "tags": [
-        {
-          "type": "abv",
-          "value": "45"
+          "value": "40"
         }
       ]
     },
@@ -179,6 +225,16 @@
       ]
     },
     {
+      "name": "Bulleit Bourbon",
+      "type": "whiskey",
+      "tags": [
+        {
+          "type": "abv",
+          "value": "45"
+        }
+      ]
+    },
+    {
       "name": "Lot 40 Rye",
       "type": "whiskey",
       "tags": [
@@ -189,12 +245,22 @@
       ]
     },
     {
-      "name": "Ampersand Gin",
+      "name": "Phillip's Small Talk Whisky",
+      "type": "whiskey",
+      "tags": [
+        {
+          "type": "abv",
+          "value": "41"
+        }
+      ]
+    },
+    {
+      "name": "Mary-Le-Bone Gin",
       "type": "gin",
       "tags": [
         {
           "type": "abv",
-          "value": "43.8"
+          "value": "50.2"
         }
       ]
     },
@@ -239,6 +305,16 @@
       ]
     },
     {
+      "name": "Pink Whitney",
+      "type": "liqueur",
+      "tags": [
+        {
+          "type": "abv",
+          "value": "30"
+        }
+      ]
+    },
+    {
       "name": "St. Germaine Elderflower",
       "type": "liqueur",
       "tags": [
@@ -265,16 +341,6 @@
         {
           "type": "abv",
           "value": "25"
-        }
-      ]
-    },
-    {
-      "name": "Esquimalt Wine Co. Dry Vermouth",
-      "type": "vermouth",
-      "tags": [
-        {
-          "type": "abv",
-          "value": "18"
         }
       ]
     },
